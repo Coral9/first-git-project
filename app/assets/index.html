@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Test images</title>
+
+	<style>
+		img{
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+	<h1>Landscape</h1>
+
+	<picture>
+		<source srcset="images/hero--large.jpg" media="(min-width: 1200px)"/>
+		<source srcset="images/hero--medium.jpg" media="(min-width: 760px)"/>
+		<img src="images/hero--small.jpg" alt="Puppy in the sand" />
+	</picture>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nihil veniam placeat, suscipit voluptates nostrum porro tenetur sit consequatur illum?</p>
+
+</body>
+</html>
