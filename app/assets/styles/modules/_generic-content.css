@@ -4,9 +4,14 @@
 		font-size: 1.125rem;
 		margin: 1.18rem 0;
 		font-weight: 300;
+		padding-left: 10px;
+		padding-right: 10px;
+		text-align: center;
 
 		@mixin atSmall{
 			font-size: 1.125rem;
+			padding: 0;
+			text-align: left;
 		}
 	}
 	
